@@ -1,9 +1,12 @@
 /* to do */
+
 body{
     position: relative;
     margin: 0;
     height: 100%;
     width: 100%;
+    width: 100%;
+    font-family: sans-serif;
 }
 /*Início Footer*/
 .informations{
@@ -33,3 +36,122 @@ body{
     font-family: sans-serif;
 }
 /*Final Footer*/
+
+.titulo-secundario {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+.texto-corrido{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+}
+
+.itens{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.formulario__campos {
+    margin: 1em 0;
+}
+
+.formulario__campos__label {
+    display: block;
+    box-sizing: border-box;
+}
+
+.formulario__campos__input {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.formulario__seletores {
+    display: block;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
+
+.formulario__seletores__individual {
+    padding: 0.5em;
+    border-radius: 3px;
+    background: #d4d3d9; 
+}
+
+.formulario__checkbox {
+    box-sizing: border-box;
+    display: block;
+    margin: 1em 0;
+}
+
+.formulario__switch {
+    margin: 1em 0;
+}
+
+.formulario__botao-submit {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border: #9eb445;
+    border-radius: 3px;
+    background: #9eb445; 
+}
+.principal-label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+
+.principal-label a {
+    text-decoration: none;
+}
+
+.nav-hamburguer {
+    display: inline-block;
+    margin: 1rem;
+    float: left;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;  
+}
+
+.nav-hex {
+    display: inline-block;
+    margin: 0.7rem 7.6rem;
+    text-align: center;
+    color: lightgray;
+    font-size: 2rem;  
+}
+
+.nav-profile {
+    display: inline-block;
+    margin: 1rem;
+    padding-right:0.7rem; 
+    float: right;
+    color: gray;
+    font-size: 2rem;  
+}
+
+.contact-label {
+    display: block;
+    padding: 1.2rem 0rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color:#3d3d3d;
+}
+
+.contact-label h2 {
+      display: block;
+      padding-left: 0.9rem;
+      font-weight: 100;
+}
+
