@@ -8,58 +8,36 @@ body{
     width: 100%;
     font-family: sans-serif;
 }
-/*Início Footer*/
-.informations{
-    position: absolute;
-    padding: 1em;
-    width: 100%;
-    bottom: 0;
-    background-color: #3d3d3d;
-}
-.informations__card{
+
+/* nav */
+.nav-hamburguer {
     display: inline-block;
-    width: 48%;
-}
-.informations__card__title{
-    color: white;
-    font-family: sans-serif;
-}
-.informations__card__lista{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-family: sans-serif;
-}
-.informations__card__lista__item{
-    text-decoration: none;
-    color: #7c7c7c;
-    font-family: sans-serif;
-}
-/*Final Footer*/
-
-.titulo-secundario {
-    font-family: sans-serif;
-    font-size: 14pt;
-    color: dimgray;
+    margin: 1rem;
+    float: left;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;  
 }
 
-.texto-corrido{
-    font-family: sans-serif;
-    font-size: 10pt;
-    color: grey;
+.nav-hex {
+    display: inline-block;
+    margin: 0.7rem 7.6rem;
+    text-align: center;
+    color: lightgray;
+    font-size: 2rem;  
 }
 
-.itens{
-    font-family: sans-serif;
-    font-size: 10pt;
-    color: grey;
-    margin-bottom: 10px;
+.nav-profile {
+    display: inline-block;
+    margin: 1rem;
+    padding-right:0.7rem; 
+    float: right;
+    color: gray;
+    font-size: 2rem;  
 }
 
-body {
-    font-family: sans-serif;
-}
 
+/* formulario */
 .formulario__campos {
     margin: 1em 0;
 }
@@ -104,6 +82,57 @@ body {
     border-radius: 3px;
     background: #9eb445; 
 }
+
+
+/*Início Footer*/
+.informations{
+    position: absolute;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+    background-color: #3d3d3d;
+}
+
+.informations__card{
+    display: inline-block;
+    width: 48%;
+}
+.informations__card__title{
+    color: white;
+    font-family: sans-serif;
+}
+.informations__card__lista{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+.informations__card__lista__item{
+    text-decoration: none;
+    color: #7c7c7c;
+    font-family: sans-serif;
+}
+/*Final Footer*/
+
+.titulo-secundario {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+.texto-corrido{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+}
+
+.itens{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 10px;
+}
+
 .principal-label {
     display: block;
     width: 100%;
@@ -115,31 +144,7 @@ body {
     text-decoration: none;
 }
 
-.nav-hamburguer {
-    display: inline-block;
-    margin: 1rem;
-    float: left;
-    color: gray;
-    font-size: 1.5rem;
-    font-weight: bold;  
-}
 
-.nav-hex {
-    display: inline-block;
-    margin: 0.7rem 7.6rem;
-    text-align: center;
-    color: lightgray;
-    font-size: 2rem;  
-}
-
-.nav-profile {
-    display: inline-block;
-    margin: 1rem;
-    padding-right:0.7rem; 
-    float: right;
-    color: gray;
-    font-size: 2rem;  
-}
 
 .contact-label {
     display: block;
