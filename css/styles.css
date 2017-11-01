@@ -10,6 +10,31 @@ body{
 }
 
 /* nav */
+.principal-label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+
+.principal-label a {
+    text-decoration: none;
+}
+
+.contact-label {
+    display: block;
+    padding: 1.2rem 0rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color:#3d3d3d;
+}
+
+.contact-label h2 {
+      display: block;
+      padding-left: 0.9rem;
+      font-weight: 100;
+}
+
 .nav-hamburguer {
     display: inline-block;
     margin: 1rem;
@@ -36,8 +61,10 @@ body{
     font-size: 2rem;  
 }
 
-
 /* formulario */
+.formulario {
+    margin: 0 2rem;
+}
 .formulario__campos {
     margin: 1em 0;
 }
@@ -83,10 +110,32 @@ body{
     background: #9eb445; 
 }
 
+/*Conteudo*/
+.corpo-conteudo {
+    margin: 0 2rem;
+}
+.titulo-secundario {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+.texto-corrido{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+}
+
+.itens{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 10px;
+}
 
 /*Início Footer*/
 .informations{
-    position: absolute;
+    margin-top:1rem;
     padding: 1em;
     width: 100%;
     bottom: 0;
@@ -114,49 +163,5 @@ body{
 }
 /*Final Footer*/
 
-.titulo-secundario {
-    font-family: sans-serif;
-    font-size: 14pt;
-    color: dimgray;
-}
 
-.texto-corrido{
-    font-family: sans-serif;
-    font-size: 10pt;
-    color: grey;
-}
-
-.itens{
-    font-family: sans-serif;
-    font-size: 10pt;
-    color: grey;
-    margin-bottom: 10px;
-}
-
-.principal-label {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    background-color:#ffffff;
-}
-
-.principal-label a {
-    text-decoration: none;
-}
-
-
-
-.contact-label {
-    display: block;
-    padding: 1.2rem 0rem;
-    box-sizing: border-box;
-    color: #ffffff;
-    background-color:#3d3d3d;
-}
-
-.contact-label h2 {
-      display: block;
-      padding-left: 0.9rem;
-      font-weight: 100;
-}
 
