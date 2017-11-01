@@ -1,1 +1,49 @@
 /* to do */
+body {
+    font-family: sans-serif;
+}
+
+.formulario__campos {
+    margin: 1em 0;
+}
+
+.formulario__campos__label {
+    display: block;
+    box-sizing: border-box;
+}
+
+.formulario__campos__input {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.formulario__seletores {
+    display: block;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
+
+.formulario__seletores__individual {
+    padding: 0.5em;
+    border-radius: 3px;
+    background: #d4d3d9; 
+}
+
+.formulario__checkbox {
+    box-sizing: border-box;
+    display: block;
+    margin: 1em 0;
+}
+
+.formulario__switch {
+    margin: 1em 0;
+}
+
+.formulario__botao-submit {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border: #9eb445;
+    border-radius: 3px;
+    background: #9eb445; 
+}
