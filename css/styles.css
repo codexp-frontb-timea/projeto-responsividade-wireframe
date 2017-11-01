@@ -18,3 +18,60 @@
     color: grey;
     margin-bottom: 10px;
 }
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.principal-label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+
+.principal-label a {
+    text-decoration: none;
+}
+
+.nav-hamburguer {
+    display: inline-block;
+    margin: 1rem;
+    float: left;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;  
+}
+
+.nav-hex {
+    display: inline-block;
+    margin: 0.7rem 7.6rem;
+    text-align: center;
+    color: lightgray;
+    font-size: 2rem;  
+}
+
+.nav-profile {
+    display: inline-block;
+    margin: 1rem;
+    padding-right:0.7rem; 
+    float: right;
+    color: gray;
+    font-size: 2rem;  
+}
+
+.contact-label {
+    display: block;
+    padding: 1.2rem 0rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color:#3d3d3d;
+}
+
+.contact-label h2 {
+      display: block;
+      padding-left: 0.9rem;
+      font-weight: 100;
+}
+
