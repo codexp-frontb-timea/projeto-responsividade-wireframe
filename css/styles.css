@@ -1,5 +1,42 @@
 /* to do */
 
+body{
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+/*Início Footer*/
+.informations{
+    position: absolute;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+    background-color: #3d3d3d;
+}
+.informations__card{
+    display: inline-block;
+    width: 48%;
+}
+.informations__card__title{
+    color: white;
+    font-family: sans-serif;
+}
+.informations__card__lista{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+.informations__card__lista__item{
+    text-decoration: none;
+    color: #7c7c7c;
+    font-family: sans-serif;
+}
+/*Final Footer*/
+
 .titulo-secundario {
     font-family: sans-serif;
     font-size: 14pt;
@@ -20,7 +57,6 @@
 }
 
 body {
-<<<<<<< HEAD
     font-family: sans-serif;
 }
 
@@ -68,11 +104,6 @@ body {
     border-radius: 3px;
     background: #9eb445; 
 }
-=======
-    width: 100%;
-    font-family: sans-serif;
-}
-
 .principal-label {
     display: block;
     width: 100%;
@@ -124,4 +155,3 @@ body {
       font-weight: 100;
 }
 
->>>>>>> 351c77d26d0b4213c517df3a41dbf2c876ebc71d
