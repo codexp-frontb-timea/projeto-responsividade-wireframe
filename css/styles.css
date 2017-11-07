@@ -78,6 +78,7 @@ body{
 }
 
 .formulario__campos__input {
+    width: 80%;
     display: block;
     box-sizing: border-box;
     border-radius: 3px;
@@ -90,9 +91,14 @@ body{
 }
 
 .formulario__seletores__individual {
+    width: 37%;
     padding: 0.5em;
     border-radius: 3px;
     background: #d4d3d9; 
+}
+
+.formulario__seletores__individual:last-of-type {
+    margin-left: 5%;
 }
 
 .formulario__checkbox {
