@@ -129,6 +129,10 @@ body{
     color: grey;
 }
 
+.texto-corrido__itens {
+    margin-left: -1.5em;
+}
+
 .itens{
     font-family: sans-serif;
     font-size: 10pt;
@@ -185,5 +189,15 @@ body{
     display: inline-block;
     float: right;
     margin-right: 1rem;
+}
+.formulario {
+    display: inline-block;
+    width: 50%;
+}
+
+.corpo-conteudo {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
 }
 }
