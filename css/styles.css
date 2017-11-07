@@ -164,5 +164,23 @@ body{
 /*Final Footer*/
 
 /*Tablet*/
-@media (min-width 768px)
-
+@media (min-width: 768px) {
+.principal-label {
+     min-height: 5rem;
+     padding: 1rem 1.5rem;
+}
+.nav-hamburguer {
+    display: none;
+}
+.nav-hex {
+    float: left;
+    margin: 1rem 0rem 1.2rem;
+    font-size: 3rem;
+    background-color: 
+}
+.nav-profile i {
+    display: inline-block;
+    float: right;
+    margin-right: 1rem;
+}
+}
