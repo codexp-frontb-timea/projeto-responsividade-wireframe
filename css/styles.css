@@ -81,6 +81,8 @@ body{
     display: block;
     box-sizing: border-box;
     border-radius: 3px;
+    border-style: groove;
+    resize: none;
 }
 
 .formulario__seletores {
