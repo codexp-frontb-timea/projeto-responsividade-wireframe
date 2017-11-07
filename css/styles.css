@@ -3,8 +3,8 @@
 body{
     position: relative;
     margin: 0;
+    padding: 0;
     height: 100%;
-    width: 100%;
     width: 100%;
     font-family: sans-serif;
 }
@@ -147,16 +147,15 @@ body{
 
 /*Início Footer*/
 .informations{
-    margin-top:1rem;
-    padding: 1em;
-    width: 100%;
+    margin-top: 1rem;
+    padding: 4%;
     bottom: 0;
     background-color: #3d3d3d;
 }
 
 .informations__card{
     display: inline-block;
-    width: 48%;
+    width: 49%;
 }
 .informations__card__title{
     color: white;
@@ -203,5 +202,9 @@ body{
         display: inline-block;
         width: 30%;
         vertical-align: top;
+    }
+
+    .informations__card {
+        width: 24%;
     }
 }
