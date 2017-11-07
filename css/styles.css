@@ -101,17 +101,29 @@ body{
     margin-left: 5%;
 }
 
-.formulario__checkbox {
+.formulario__checkbox-01 {
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
+    width: 36%;
+}
+
+.formulario__checkbox-02 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 36%;
+    margin-left: 5%;
+}
+
+.formulario__switch-01 {
     margin: 1em 0;
 }
 
-.formulario__switch {
+.formulario__switch-02 {
     margin: 1em 0;
 }
 
 .formulario__botao-submit {
+    display: block;
     margin: 1em 0;
     padding: 0.5em 1em;
     border: #9eb445;
@@ -229,5 +241,18 @@ body{
     }
     .informations__card {
         width: 24%;
+    }
+}
+
+@media (min-width: 992px) {
+    .formulario__switch-01 {
+        display: inline-block;
+        width: 37%;
+    }
+    
+    .formulario__switch-02 {
+        display: inline-block;
+        width: 37%;
+        margin-left: 4%;
     }
 }
