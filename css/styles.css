@@ -113,6 +113,11 @@ body{
     background: #9eb445; 
 }
 
+/*Mapa*/
+.mapa {
+    width: 100%;
+}
+
 /*Conteudo*/
 .corpo-conteudo {
     margin: 0 2rem;
@@ -172,32 +177,31 @@ body{
 
 /*Tablet*/
 @media (min-width: 768px) {
-.principal-label {
-     min-height: 5rem;
-     padding: 1rem 1.5rem;
-}
-.nav-hamburguer {
-    display: none;
-}
-.nav-hex {
-    float: left;
-    margin: 1rem 0rem 1.2rem;
-    font-size: 3rem;
-    background-color: 
-}
-.nav-profile i {
-    display: inline-block;
-    float: right;
-    margin-right: 1rem;
-}
-.formulario {
-    display: inline-block;
-    width: 50%;
-}
+    .principal-label {
+         min-height: 5rem;
+        padding: 1rem 1.5rem;
+    }
+    .nav-hamburguer {
+        display: none;
+    }
+    .nav-hex {
+        float: left;
+        margin: 1rem 0rem 1.2rem;
+        font-size: 3rem;
+    }
+    .nav-profile i {
+        display: inline-block;
+        float: right;
+        margin-right: 1rem;
+    }
+    .formulario {
+        display: inline-block;
+        width: 50%;
+    }
 
-.corpo-conteudo {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-}
+    .corpo-conteudo {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
 }
