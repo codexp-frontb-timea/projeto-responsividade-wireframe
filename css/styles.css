@@ -39,9 +39,8 @@ body{
 
 .nav-hamburguer {
     display: inline-block;
-    margin: 2% 2%;
-    float: left;
-    color: gray;
+    margin: 2.2% 2%;
+    color: lightgray;
     font-size: 1.5rem;
     font-weight: bold;
     position: absolute; 
@@ -245,11 +244,20 @@ body{
 }
 
 @media (min-width: 992px) {
+    .menu {
+        margin: 1% 25%;
+    }
+    .nav-profile {
+        margin: 1.5% 0%;
+        right: 3%;
+    }
+    .menu__icon {
+        padding: 0% 10%;
+    }
     .formulario__switch-01 {
         display: inline-block;
         width: 37%;
     }
-    
     .formulario__switch-02 {
         display: inline-block;
         width: 37%;
