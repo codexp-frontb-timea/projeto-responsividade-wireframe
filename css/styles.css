@@ -163,5 +163,6 @@ body{
 }
 /*Final Footer*/
 
-
+/*Tablet*/
+@media (min-width 768px)
 
