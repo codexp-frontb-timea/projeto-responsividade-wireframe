@@ -12,6 +12,7 @@ body{
 /* nav */
 .principal-label {
     display: block;
+    position: relative;
     width: 100%;
     box-sizing: border-box;
     background-color:#ffffff;
@@ -41,7 +42,8 @@ body{
     float: left;
     color: gray;
     font-size: 1.5rem;
-    font-weight: bold;  
+    font-weight: bold;
+    position: absolute; 
 }
 
 .nav-hex {
@@ -49,16 +51,17 @@ body{
     margin: 0.7rem 7.6rem;
     text-align: center;
     color: lightgray;
-    font-size: 2rem;  
+    font-size: 2rem; 
+    position: absolute; 
 }
 
 .nav-profile {
     display: inline-block;
-    margin: 1rem;
-    padding-right:0.7rem; 
+    margin: 4% 5% 1% 0%;
     float: right;
     color: gray;
-    font-size: 2rem;  
+    font-size: 2rem; 
+    position: absolute; 
 }
 
 /* formulario */
