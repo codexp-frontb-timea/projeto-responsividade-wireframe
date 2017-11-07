@@ -101,10 +101,17 @@ body{
     margin-left: 5%;
 }
 
-.formulario__checkbox {
+.formulario__checkbox-01 {
     box-sizing: border-box;
-    display: block;
-    margin: 1em 0;
+    display: inline-block;
+    width: 36%;
+}
+
+.formulario__checkbox-02 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 36%;
+    margin-left: 5%;
 }
 
 .formulario__switch {
